@@ -1,0 +1,39 @@
+.typesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+  background-color: #494949;
+  border-top: 1px solid #9b9b9b;
+  font-size: 17px;
+}
+
+/* .typeWrapper {
+  background-color: rgb(56, 52, 47);
+} */
+
+.typeWrapper a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #9b9b9b;
+  text-align: center;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.typeWrapper img {
+  height: 39px;
+  display: block;
+}
+
+/* .typeWrapper p {
+  color: #9b9b9b;
+  text-align: center;
+  line-height: 24px;
+} */
+
+.typeWrapper .videoSlot {
+  color: #fff209;
+}

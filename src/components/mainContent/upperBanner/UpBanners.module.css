@@ -1,0 +1,19 @@
+.banners {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.banners div {
+  width: 622px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.firstBanner {
+  background-color: aqua;
+}
+
+.secondBanner {
+  background-color: yellow;
+}

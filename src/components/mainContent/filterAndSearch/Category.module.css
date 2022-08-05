@@ -1,0 +1,83 @@
+.categoryWrapper {
+  background-color: #494949;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 21px;
+  height: 79px;
+  padding-left: 40px;
+  /* padding: 27px 40px; */
+}
+
+.categoryWrapper span {
+  color: #dacf0c;
+}
+
+.inputDiv {
+  position: relative;
+  /* background-color: red; */
+}
+
+.inputDiv img {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  height: 20px;
+  font-size: 20px;
+}
+
+.allGames {
+  /* background-color: red; */
+  cursor: pointer;
+  /* border-bottom: 2px solid #9b9b9b; */
+  height: 100%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* background-color: #6d2f2f; */
+  position: relative;
+}
+
+.allGames::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 174px;
+  height: 3px;
+  background-color: #9b9b9b;
+}
+
+.allProviders {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.allProviders img {
+  width: 21px;
+  height: 10px;
+}
+
+.inputDiv input {
+  background: none;
+  width: 199px;
+  height: 37px;
+  border: 1px solid #9b9b9b;
+  padding: 12px 8px;
+  padding-right: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputDiv input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #9b9b9b;
+  font-size: 17px;
+}
