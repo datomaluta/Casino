@@ -1,4 +1,3 @@
-// import { Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import UpBanners from "./components/mainContent/upperBanner/UpBanners";
 import "./App.css";
@@ -6,7 +5,7 @@ import Category from "./components/mainContent/filterAndSearch/Category";
 import Gametypes from "./components/mainContent/gameTypes/GameTypes";
 import { useEffect, useState } from "react";
 import GamesList from "./components/mainContent/gamesList/GamesList";
-import { Redirect, Route } from "react-router-dom";
+// import { Redirect, Route } from "react-router-dom";
 
 function App() {
   const [data, setdata] = useState([]);
@@ -112,17 +111,17 @@ function App() {
           />
         )}
       </div>
-      <Route path="/" exact>
-        <Redirect to="/inplay" />
-      </Route>
-      <Route path="/inplay">
-        <Redirect to="/" />
-      </Route>
 
       {/* 
 
       just for example If the site were complete :D
 
+      <Route path="/" exact>
+        <Home/>
+      </Route>
+      <Route path='/inplay'>
+        <InplayPage/>
+      </Route>
       <Route path='/sport'>
         <SportPage/>
       </Route>
