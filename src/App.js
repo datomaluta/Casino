@@ -115,7 +115,9 @@ function App() {
       <Route path="/" exact>
         <Redirect to="/inplay" />
       </Route>
-      <Route path="/inplay"></Route>
+      <Route path="/inplay">
+        <Redirect to="/" />
+      </Route>
 
       {/* 
 
